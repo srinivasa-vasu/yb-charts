@@ -69,7 +69,7 @@ tls:
   # Will be ignored when certManager.enabled=true
   # When the node's cert is signed outside with an external CA or self-signed, set userManaged.enabled to true to use those base64 encoded values.
   userManaged:
-    enabled: true
+    enabled: false
     # input as base64 encoded
     caCert:   #LS0t...Qo=
     master:
